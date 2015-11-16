@@ -18,6 +18,7 @@ void setup()
 
 void draw()
 {
+  
   if(sensor.getCOM().available() > 0)
   {
     int data = sensor.getCOM().read();
@@ -46,8 +47,11 @@ void draw()
     delayCounter++;
     if(delayCounter >= delayTime)
     { 
+      int m = minute();  // Values from 0 - 59
+      int h = hour();    // Values from 0 - 23
+      
       String request = "http://ph1a5h.asuscomm.com/postTest.php?humid="+String.valueOf(sensor.humidity)+"&temp="+String.valueOf(sensor.temperature)+"&fan="+fanState;
-      println("[REQUEST]:"+request);
+      println(h+":"+m+"[REQUEST]:"+request);
       GetRequest get = new GetRequest(request);
       get.send();
       delayCounter = 0;
