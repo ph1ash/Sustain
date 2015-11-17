@@ -563,15 +563,18 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f02001b;
         public static final int common_signin_btn_text_pressed_dark=0x7f02001c;
         public static final int common_signin_btn_text_pressed_light=0x7f02001d;
-        public static final int generic_confirmation=0x7f02001e;
-        public static final int generic_confirmation_animation=0x7f02001f;
-        public static final int ic_full_cancel=0x7f020020;
-        public static final int ic_full_sad=0x7f020021;
-        public static final int ic_launcher=0x7f020022;
-        public static final int open_on_phone=0x7f020023;
-        public static final int open_on_phone_animation=0x7f020024;
-        public static final int photo_placeholder=0x7f020025;
-        public static final int rounded_background=0x7f020026;
+        public static final int fan=0x7f02001e;
+        public static final int generic_confirmation=0x7f02001f;
+        public static final int generic_confirmation_animation=0x7f020020;
+        public static final int humidity=0x7f020021;
+        public static final int ic_full_cancel=0x7f020022;
+        public static final int ic_full_sad=0x7f020023;
+        public static final int ic_launcher=0x7f020024;
+        public static final int open_on_phone=0x7f020025;
+        public static final int open_on_phone_animation=0x7f020026;
+        public static final int photo_placeholder=0x7f020027;
+        public static final int rounded_background=0x7f020028;
+        public static final int thermometer=0x7f020029;
     }
     public static final class id {
         public static final int adjust_height=0x7f0d0007;
@@ -581,36 +584,35 @@ containing a value of this type.
         public static final int animatedWrapperContainer=0x7f0d0014;
         public static final int bottom=0x7f0d0001;
         public static final int buttonPanel=0x7f0d0016;
-        public static final int capability_2_btn=0x7f0d001b;
         public static final int center=0x7f0d0005;
         public static final int center_horizontal=0x7f0d000a;
         public static final int center_vertical=0x7f0d000b;
         public static final int clip_horizontal=0x7f0d000c;
         public static final int clip_vertical=0x7f0d000d;
         public static final int dataItem_list=0x7f0d0019;
-        public static final int dismiss_overlay_button=0x7f0d0020;
-        public static final int dismiss_overlay_explain=0x7f0d001f;
+        public static final int dismiss_overlay_button=0x7f0d001f;
+        public static final int dismiss_overlay_explain=0x7f0d001e;
         public static final int end=0x7f0d000e;
-        public static final int fanstateText=0x7f0d001e;
+        public static final int fanstateText=0x7f0d001d;
         public static final int fill=0x7f0d000f;
         public static final int fill_horizontal=0x7f0d0010;
         public static final int fill_vertical=0x7f0d0011;
         public static final int fit=0x7f0d0006;
-        public static final int humidityText=0x7f0d001d;
+        public static final int humidityText=0x7f0d001b;
         public static final int intro=0x7f0d001a;
         public static final int layout=0x7f0d0017;
         public static final int left=0x7f0d0002;
-        public static final int message=0x7f0d0021;
+        public static final int message=0x7f0d0020;
         public static final int none=0x7f0d0009;
-        public static final int page_indicator=0x7f0d0023;
-        public static final int pager=0x7f0d0022;
+        public static final int page_indicator=0x7f0d0022;
+        public static final int pager=0x7f0d0021;
         public static final int parentPanel=0x7f0d0013;
         public static final int photo=0x7f0d0018;
         public static final int right=0x7f0d0003;
         public static final int start=0x7f0d0012;
         public static final int temperatureText=0x7f0d001c;
-        public static final int text=0x7f0d0025;
-        public static final int title=0x7f0d0024;
+        public static final int text=0x7f0d0024;
+        public static final int title=0x7f0d0023;
         public static final int top=0x7f0d0004;
     }
     public static final class integer {
@@ -674,8 +676,9 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f07001f;
         public static final int connected_nodes=0x7f070026;
         public static final int dismiss_overlay_button_label=0x7f070020;
-        public static final int intro=0x7f070027;
-        public static final int no_device=0x7f070028;
+        public static final int empty_data=0x7f070027;
+        public static final int intro=0x7f070028;
+        public static final int no_device=0x7f070029;
     }
     public static final class style {
         public static final int CardText=0x7f080000;

@@ -119,12 +119,12 @@ public final class R {
 		public static final int card_frame = 0x7f020001;
 		public static final int card_frame_pressed = 0x7f020002;
 		public static final int close_button = 0x7f020003;
-		public static final int generic_confirmation = 0x7f02001e;
-		public static final int generic_confirmation_animation = 0x7f02001f;
-		public static final int ic_full_cancel = 0x7f020020;
-		public static final int ic_full_sad = 0x7f020021;
-		public static final int open_on_phone = 0x7f020023;
-		public static final int open_on_phone_animation = 0x7f020024;
+		public static final int generic_confirmation = 0x7f02001f;
+		public static final int generic_confirmation_animation = 0x7f020020;
+		public static final int ic_full_cancel = 0x7f020022;
+		public static final int ic_full_sad = 0x7f020023;
+		public static final int open_on_phone = 0x7f020025;
+		public static final int open_on_phone_animation = 0x7f020026;
 	}
 	public static final class id {
 		public static final int alertTitle = 0x7f0d0015;
@@ -137,20 +137,20 @@ public final class R {
 		public static final int center_vertical = 0x7f0d000b;
 		public static final int clip_horizontal = 0x7f0d000c;
 		public static final int clip_vertical = 0x7f0d000d;
-		public static final int dismiss_overlay_button = 0x7f0d0020;
-		public static final int dismiss_overlay_explain = 0x7f0d001f;
+		public static final int dismiss_overlay_button = 0x7f0d001f;
+		public static final int dismiss_overlay_explain = 0x7f0d001e;
 		public static final int end = 0x7f0d000e;
 		public static final int fill = 0x7f0d000f;
 		public static final int fill_horizontal = 0x7f0d0010;
 		public static final int fill_vertical = 0x7f0d0011;
 		public static final int fit = 0x7f0d0006;
 		public static final int left = 0x7f0d0002;
-		public static final int message = 0x7f0d0021;
+		public static final int message = 0x7f0d0020;
 		public static final int parentPanel = 0x7f0d0013;
 		public static final int right = 0x7f0d0003;
 		public static final int start = 0x7f0d0012;
-		public static final int text = 0x7f0d0025;
-		public static final int title = 0x7f0d0024;
+		public static final int text = 0x7f0d0024;
+		public static final int title = 0x7f0d0023;
 		public static final int top = 0x7f0d0004;
 	}
 	public static final class interpolator {

@@ -2,11 +2,315 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="wear_round" />
+        </devices>
+      </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml">
+        <config>
+          <theme>@android:style/Theme.DeviceDefault</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfb2114a-0da4-4a42-ac69-365915260a22" name="Default" comment="" />
+    <list default="true" id="120c7f3b-2f54-42a5-9d02-79dab45ecb73" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/classes-502cc66181a41e136e47f9f476a7a3d9b782beb4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/classes-5917dc7bbd3573db46f3668a042baaadc6df6a58.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/classes-87286c92be7cc2ba5c70fad19d84a36b2269ab7b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/classes-a1fc56eff6d97a679723540927159631e6c85ae4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/classes-a3ff45fa4df753adef014390a25ea34a70be1634.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-c844b4cacffea22045dbc0f92051380e064a85bf.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-d81a6f998ab82fc64ba8a7ca3ff6f2da4541daab.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/classes-58a88c9fad9f4247f88df176fc63432aa34b8be3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/classes-68014c6aaddaec03dc4bc7d9b85cb70dd9ae24a6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/classes-7f560fc75f0c182dc26d4694bb4b0292222d84a0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/classes-91e1004333cf7e1efafa4ca0ca6d11b9ad4e652d.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/classes-a74602e98e2180bab74485a8112f08b4b1b42594.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/classes-c83b43376db6d80515d49d7271bccb2131cc5871.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-d4a5912c3ce4cc56985eae1084f768be17ae2ef5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-e24205ea9af0c1042478d1abdc7c79a26362b5e3.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/outputs/apk/Application-debug-unaligned.apk" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/Application-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/outputs/apk/Application-debug.apk" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/Application-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$3.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$4.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$5.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$5.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$8.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$9.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$DataItemGenerator$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$DataItemGenerator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$DataItemGenerator.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$DataItemGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$Event.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$Event.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$MyPagerAdapter.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$MyPagerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$StartWearableActivityTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity$StartWearableActivityTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/android/support/wearable/R$drawable.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/android/support/wearable/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$drawable.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/android/support/wearable/R$id.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/android/support/wearable/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$id.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$integer.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$interpolator.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$interpolator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$layout.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$string.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$style.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$styleable.class" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/classes/debug/com/example/android/wearable/datalayer/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/outputs/apk/Wearable-debug-unaligned.apk" afterPath="$PROJECT_DIR$/Wearable/build/outputs/apk/Wearable-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/outputs/apk/Wearable-debug.apk" afterPath="$PROJECT_DIR$/Wearable/build/outputs/apk/Wearable-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/resources/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/resources/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-4af8d36641585e514388baaaa999d45112681e8d.jar" afterPath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-4af8d36641585e514388baaaa999d45112681e8d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-4af8d36641585e514388baaaa999d45112681e8d.jar" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-4af8d36641585e514388baaaa999d45112681e8d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/datalayer/MainActivity.java" afterPath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/datalayer/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/generated/source/r/debug/android/support/wearable/R.java" afterPath="$PROJECT_DIR$/Wearable/build/generated/source/r/debug/android/support/wearable/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/generated/source/r/debug/com/example/android/wearable/datalayer/R.java" afterPath="$PROJECT_DIR$/Wearable/build/generated/source/r/debug/com/example/android/wearable/datalayer/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/alert_dialog_wearable.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/alert_dialog_wearable.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/asset_fragment.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/asset_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/card_background.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/card_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/color/circular_button.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/color/circular_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/animator/circular_image_button_anim.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/animator/circular_image_button_anim.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/close_button.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/close_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/data_fragment.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/data_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/discovery_fragment.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/discovery_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml" afterPath="$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout-v21/dismiss_overlay.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout-v21/dismiss_overlay.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/divider.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/drawable/divider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/error_layout.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/error_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/generic_confirmation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/generic_confirmation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/generic_confirmation_animation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/generic_confirmation_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_0.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_1.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_2.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_3.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/generic_confirmation_animation_interpolator_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/generic_confirmation_generic_confirmation_animation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/generic_confirmation_generic_confirmation_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/generic_confirmation_icon_animation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/generic_confirmation_icon_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/layout/main_activity.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/layout/main_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/main_activity.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout/main_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/open_on_phone.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/open_on_phone.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/open_on_phone_animation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable-v21/open_on_phone_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/open_on_phone_animation_interpolator_0.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/open_on_phone_animation_interpolator_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/open_on_phone_animation_interpolator_1.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/interpolator/open_on_phone_animation_interpolator_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/open_on_phone_arrow_animation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/open_on_phone_arrow_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/open_on_phone_path_1_animation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/open_on_phone_path_1_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/open_on_phone_path_2_animation.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/anim-v21/open_on_phone_path_2_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/rounded_background.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/drawable/rounded_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v13_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v13_23_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-af/values-af.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-af/values-af.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-af/values-af.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-af/values-af.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-am/values-am.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-am/values-am.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-am/values-am.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-am/values-am.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ar/values-ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ar/values-ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-az-rAZ/values-az-rAZ.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-az-rAZ/values-az-rAZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-az-rAZ/values-az-rAZ.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-az-rAZ/values-az-rAZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-bg/values-bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-bg/values-bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ca/values-ca.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ca/values-ca.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-cs/values-cs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-da/values-da.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-da/values-da.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-da/values-da.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-de/values-de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-el/values-el.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-el/values-el.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-el/values-el.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-el/values-el.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-en-rAU/values-en-rAU.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-en-rAU/values-en-rAU.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-en-rAU/values-en-rAU.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-en-rAU/values-en-rAU.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fa/values-fa.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fa/values-fa.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fi/values-fi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fi/values-fi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-gu-rIN/values-gu-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-gu-rIN/values-gu-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-gu-rIN/values-gu-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-gu-rIN/values-gu-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hi/values-hi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hi/values-hi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hr/values-hr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hr/values-hr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hu/values-hu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hu/values-hu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-in/values-in.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-in/values-in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-in/values-in.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-in/values-in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-iw/values-iw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-iw/values-iw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-lt/values-lt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-lt/values-lt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-lv/values-lv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-lv/values-lv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-nb/values-nb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-nb/values-nb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-nl/values-nl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-nl/values-nl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pa-rIN/values-pa-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pa-rIN/values-pa-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pa-rIN/values-pa-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pa-rIN/values-pa-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pl/values-pl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pl/values-pl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pt-rBR/values-pt-rBR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pt-rBR/values-pt-rBR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-pt/values-pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-pt/values-pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ro/values-ro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ro/values-ro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sk/values-sk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sk/values-sk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sl/values-sl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sl/values-sl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sq-rAL/values-sq-rAL.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sq-rAL/values-sq-rAL.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sq-rAL/values-sq-rAL.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sq-rAL/values-sq-rAL.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sr/values-sr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sr/values-sr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sv/values-sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sv/values-sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sw/values-sw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-sw/values-sw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sw600dp/values-sw600dp.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-sw600dp/values-sw600dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-th/values-th.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-th/values-th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-th/values-th.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-th/values-th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-tl/values-tl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-tl/values-tl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-tr/values-tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-tr/values-tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-uk/values-uk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-uk/values-uk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-v11/values-v11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-v20/values-v20.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-v20/values-v20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-v21/values-v21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-v21/values-v21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-vi/values-vi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-vi/values-vi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values-zu/values-zu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values-zu/values-zu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout-v20/watch_card_content.xml" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/debug/layout-v20/watch_card_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/wearable_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/wearable_1_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SustainApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,20 +330,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="discovery_fragment.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/datalayer/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7407407">
+              <caret line="293" column="7" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+              <folding>
+                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onConnected#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onConnectionSuspended#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onConnectionFailed#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onDataChanged#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#loadBitmapFromAsset#0;class#MainActivity#0" expanded="false" />
+              </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/datalayer/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="598" column="43" selection-start-line="598" selection-start-column="43" selection-end-line="598" selection-end-column="43" />
+              <folding>
+                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onStart#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onStop#0;class#MainActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discovery_fragment.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5286458">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+              <folding>
+                <element signature="e#1957#1977#0" expanded="true" />
+                <element signature="e#2367#2387#0" expanded="true" />
+                <element signature="e#2694#2714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.777778">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -2098,6 +2455,23 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/datalayer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/datalayer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
@@ -2106,7 +2480,7 @@
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2129,12 +2503,70 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SustainApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SustainApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wearable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SustainApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wearable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SustainApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wearable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2156,19 +2588,67 @@
               <option name="myItemId" value="Application" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SustainApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SustainApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datalayer" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SustainApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="TA9890ALZZ" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android_Wear_Round_Chin_API_22" />
   </component>
   <component name="RunManager" selected="Android Application.Application">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2177,6 +2657,36 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -2234,6 +2744,11 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -2308,7 +2823,7 @@
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -2350,41 +2865,42 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bfb2114a-0da4-4a42-ac69-365915260a22" name="Default" comment="" />
-      <created>1447727741580</created>
+      <changelist id="120c7f3b-2f54-42a5-9d02-79dab45ecb73" name="Default" comment="" />
+      <created>1447730920704</created>
       <option name="number" value="Default" />
-      <updated>1447727741580</updated>
+      <updated>1447730920704</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.509693" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.49030694" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24798061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -2393,11 +2909,66 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml">
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/values/wear.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/datalayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7407407">
+          <caret line="293" column="7" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+          <folding>
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onConnected#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onConnectionSuspended#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onConnectionFailed#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onDataChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#loadBitmapFromAsset#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.777778">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable-xxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/main_activity.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2405,6 +2976,36 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/datalayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="598" column="43" selection-start-line="598" selection-start-column="43" selection-end-line="598" selection-end-column="43" />
+          <folding>
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onStart#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onStop#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/discovery_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5286458">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="e#1957#1977#0" expanded="true" />
+            <element signature="e#2367#2387#0" expanded="true" />
+            <element signature="e#2694#2714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>

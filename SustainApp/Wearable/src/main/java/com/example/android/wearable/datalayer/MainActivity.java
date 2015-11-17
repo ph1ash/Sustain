@@ -209,7 +209,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
                         @Override
                         public void run() {
                             Log.d(TAG, "Setting background image on second page..");
-                            moveToPage(1);
+                            moveToPage(2);
                             mAssetFragment.setBackgroundImage(bitmap);
                         }
                     });
@@ -231,10 +231,10 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
 
     public void onClicked(View view) {
         switch (view.getId()) {
-            case R.id.capability_2_btn:
+            /*case R.id.capability_2_btn:
                 showNodes(CAPABILITY_2_NAME);
                 break;
-            /*case R.id.capabilities_1_and_2_btn:
+            case R.id.capabilities_1_and_2_btn:
                 showNodes(CAPABILITY_1_NAME, CAPABILITY_2_NAME);
                 break;*/
             default:
@@ -245,7 +245,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
     /**
      * Find the connected nodes that provide at least one of the given capabilities
      */
-    private void showNodes(final String... capabilityNames) {
+    /*private void showNodes(final String... capabilityNames) {
         Wearable.CapabilityApi.getAllCapabilities(mGoogleApiClient,
                 CapabilityApi.FILTER_REACHABLE).setResultCallback(
 
@@ -291,7 +291,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
                         Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
                     }
                 });
-    }
+    }*/
 
     /**
      * Extracts {@link android.graphics.Bitmap} data from the
