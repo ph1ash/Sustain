@@ -5,9 +5,9 @@ private DHT2023 sensor = new DHT2023(0.0,0.0);
 private char[] dataArray = new char[100];
 private boolean flag = false;
 
-private int delayTime = 60; //seconds (1000ms delay on Arduino) 
+private int delayTime = 10; //seconds (1000ms delay on Arduino) 
 private int idx = 0;
-private int delayCounter = 60;
+private int delayCounter = 10;
 
 
 void setup()
