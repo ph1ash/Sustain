@@ -85,6 +85,9 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/home/dexter/Projects/Sustain/SustainApp/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="empty_data">No data</string>
     <!-- From: file:/home/dexter/Projects/Sustain/SustainApp/Application/src/main/res/values/base-strings.xml -->
     <eat-comment/>
     <string name="intro_message">
@@ -104,6 +107,7 @@
     <string name="start">Start</string>
     <string name="start_wearable_activity">Start Wearable Activity</string>
     <string name="take_photo">Take a Photo</string>
+    <string name="update">Update</string>
     <!-- From: file:/home/dexter/Projects/Sustain/SustainApp/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.Sample"/>

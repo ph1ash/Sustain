@@ -204,22 +204,21 @@ containing a value of this type.
         public static final int common_signin_btn_text_pressed_dark=0x7f020018;
         public static final int common_signin_btn_text_pressed_light=0x7f020019;
         public static final int divider=0x7f02001a;
-        public static final int ic_content_picture=0x7f02001b;
-        public static final int ic_launcher=0x7f02001c;
-        public static final int tile=0x7f02001d;
+        public static final int fan=0x7f02001b;
+        public static final int humidity=0x7f02001c;
+        public static final int ic_content_picture=0x7f02001d;
+        public static final int ic_launcher=0x7f02001e;
+        public static final int thermometer=0x7f02001f;
+        public static final int tile=0x7f020020;
     }
     public static final class id {
         public static final int adjust_height=0x7f0a0000;
         public static final int adjust_width=0x7f0a0001;
-        public static final int dataTextView=0x7f0a0009;
-        public static final int data_item_list=0x7f0a000a;
-        public static final int divider=0x7f0a0007;
-        public static final int imageView=0x7f0a0006;
+        public static final int fanstateText=0x7f0a0005;
+        public static final int humidityText=0x7f0a0003;
         public static final int none=0x7f0a0002;
-        public static final int sendPhoto=0x7f0a0005;
-        public static final int start_wearable_activity=0x7f0a0008;
-        public static final int takePhoto=0x7f0a0004;
-        public static final int top=0x7f0a0003;
+        public static final int temperatureText=0x7f0a0004;
+        public static final int update_button=0x7f0a0006;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f090000;
@@ -264,11 +263,13 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f04001d;
         public static final int common_signin_button_text=0x7f04001e;
         public static final int common_signin_button_text_long=0x7f04001f;
-        public static final int intro_message=0x7f040023;
-        public static final int send_photo=0x7f040024;
-        public static final int start=0x7f040025;
-        public static final int start_wearable_activity=0x7f040026;
-        public static final int take_photo=0x7f040027;
+        public static final int empty_data=0x7f040023;
+        public static final int intro_message=0x7f040024;
+        public static final int send_photo=0x7f040025;
+        public static final int start=0x7f040026;
+        public static final int start_wearable_activity=0x7f040027;
+        public static final int take_photo=0x7f040028;
+        public static final int update=0x7f040029;
     }
     public static final class style {
         public static final int AppTheme=0x7f060002;
