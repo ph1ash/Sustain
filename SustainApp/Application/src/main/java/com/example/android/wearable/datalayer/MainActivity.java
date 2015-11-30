@@ -227,6 +227,11 @@ public class MainActivity extends Activity implements DataApi.DataListener,
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
                 .build();
+
+        /*Intent serviceIntent = new Intent();
+        serviceIntent.setAction("com.example.android.wearable.datalayer.SustainService");
+        startService(serviceIntent);*/
+
     }
 
     @Override

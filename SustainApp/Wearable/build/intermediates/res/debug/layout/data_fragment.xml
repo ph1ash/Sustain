@@ -38,4 +38,4 @@
         android:fontFamily="sans-serif-condensed-light"
         android:text="@string/intro" />
 </RelativeLayout>
-<!-- From: file:/Users/mtd9636/Google%20Drive/Projects/SustainSystem/SustainApp/Wearable/src/main/res/layout/data_fragment.xml -->
+<!-- From: file:/home/dexter/Projects/Sustain/SustainApp/Wearable/src/main/res/layout/data_fragment.xml -->

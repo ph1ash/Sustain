@@ -82,6 +82,7 @@ int id takePhoto 0x7f0a0004
 int id top 0x7f0a0003
 int integer google_play_services_version 0x7f090000
 int layout main_activity 0x7f030000
+int layout update_resource 0x7f030001
 int string app_name 0x7f040020
 int string auth_google_play_services_client_facebook_display_name 0x7f040021
 int string auth_google_play_services_client_google_display_name 0x7f040022

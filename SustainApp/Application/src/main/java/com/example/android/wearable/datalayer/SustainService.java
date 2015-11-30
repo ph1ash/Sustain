@@ -1,101 +1,78 @@
 package com.example.android.wearable.datalayer;
 
-import android.app.Service;
-import android.content.Intent;
 import android.os.AsyncTask;
-import android.os.Bundle;
 import android.os.Handler;
-import android.os.IBinder;
-import android.os.Message;
-import android.os.Messenger;
-import android.text.method.ScrollingMovementMethod;
+import android.os.Looper;
 import android.util.Log;
-import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.common.data.FreezableUtils;
-import com.google.android.gms.wearable.DataApi;
-import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
-import com.google.android.gms.wearable.MessageApi;
-import com.google.android.gms.wearable.NodeApi;
+import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
+import com.google.android.gms.wearable.WearableListenerService;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.lang.ref.WeakReference;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by mtd9636 on 11/23/15.
  */
-public class SustainService extends Service implements DataApi.DataListener,
-        MessageApi.MessageListener, NodeApi.NodeListener, GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener {
+public class SustainService extends WearableListenerService{
 
     private GoogleApiClient mGoogleApiClient;
     private static final String TAG = SustainService.class.getSimpleName();
-    private final Messenger mMessenger = new Messenger(new IncomingHandler(this));
-    public static final int MSG_SEND_NOTIFICATION = 1;
-    private String webServer = "http://ph1a5h.asuscomm.com/environment.php";
+    String webServer = "http://ph1a5h.asuscomm.com/environment.php";
 
-    private String humidity;
-    private String temperature;
-    private String fanState;
+    String humidity;
+    String temperature;
+    String fanState;
 
     private static final String TEMPERATURE_PATH = "/temperature";
     private static final String HUMIDITY_PATH = "/humidity";
     private static final String FANSTATE_PATH = "/fanstate";
 
+    private static final String UPDATE_SUSTAIN_DATA = "/update_sustain_data";
+
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId)
+    public void onMessageReceived(MessageEvent event)
     {
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addApi(Wearable.API)
                 .build();
-        return START_STICKY;
+        mGoogleApiClient.connect();
+        if (event.getPath().equals(UPDATE_SUSTAIN_DATA))
+        {
+            Handler handler = new Handler(Looper.getMainLooper());
+            handler.post(new Runnable()
+            {
+                @Override
+                public void run()
+                {
+                    Toast.makeText(SustainService.this.getApplicationContext(), "Updating Sustain Data", Toast.LENGTH_LONG).show();
+                }
+            });
+            new getWebsiteDataTask().execute();
+        }
     }
-
 
     @Override
-    public IBinder onBind(Intent intent) {
-        Log.d(TAG, "onBind");
-        mGoogleApiClient.connect();
-        return mMessenger.getBinder();
+    public void onDataChanged(DataEventBuffer buffer)
+    {
+
     }
 
-
-    /**
-     * TODO: Handler for incoming messages from clients.
-     */
-    private static class IncomingHandler extends Handler {
-        private final WeakReference<SustainService> mReference;
-
-        IncomingHandler(SustainService service) {
-            mReference = new WeakReference<>(service);
-        }
-
-        @Override
-        public void handleMessage(Message msg) {
-            SustainService service = mReference.get();
-            switch (msg.what) {
-                case MSG_SEND_NOTIFICATION:
-                    Log.d(TAG,"Message sent notification");
-                    break;
-                default:
-                    super.handleMessage(msg);
-            }
-        }
-    }
-
+    /*@Override
+    public int onStartCommand(Intent intent, int flags, int startId)
+    {
+        Log.d("DerpWear", "Starting Wearable Service");
+        return START_STICKY;
+    }*/
 
     // Parses the HTML by splitting data at specific delimiters
     private void environmentParser(String data)
@@ -132,8 +109,6 @@ public class SustainService extends Service implements DataApi.DataListener,
             c.setRequestProperty("Content-length", "0");
             c.setUseCaches(false);
             c.setAllowUserInteraction(false);
-            //c.setConnectTimeout(timeout);
-            //c.setReadTimeout(timeout);
             c.connect();
             int status = c.getResponseCode();
 
@@ -163,14 +138,14 @@ public class SustainService extends Service implements DataApi.DataListener,
         dataMapValue.getDataMap().putString(path, data);
         dataMapValue.getDataMap().putLong("time", new Date().getTime());
         PutDataRequest requestData = dataMapValue.asPutDataRequest();
-        Wearable.DataApi.putDataItem(mGoogleApiClient, requestData)
-                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+        Wearable.DataApi.putDataItem(mGoogleApiClient, requestData);
+                /*.setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
                     @Override
                     public void onResult(DataApi.DataItemResult dataItemResult) {
                         Log.d(TAG, "Sending data was successful: " + dataItemResult.getStatus()
                                 .isSuccess());
                     }
-                });
+                });*/
     }
 
     // Send data using DataMap interface

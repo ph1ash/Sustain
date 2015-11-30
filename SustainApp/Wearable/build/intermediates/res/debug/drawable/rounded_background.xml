@@ -19,4 +19,4 @@
     <padding android:left="10dp" android:right="10dp" android:top="5dp" android:bottom="5dp"/>
     <solid android:color="@color/black"/>
 </shape>
-<!-- From: file:/Users/mtd9636/Google%20Drive/Projects/SustainSystem/SustainApp/Wearable/src/main/res/drawable/rounded_background.xml -->
+<!-- From: file:/home/dexter/Projects/Sustain/SustainApp/Wearable/src/main/res/drawable/rounded_background.xml -->

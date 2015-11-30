@@ -2,67 +2,67 @@
 <items version="2" >
 
     <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-187bcce58f4d32a553fa0b5ed29f25cbc4da4da4.jar" />
-    </item>
-    <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-2c798338f0bf0be3e6d4864e9ee95b5baec7b2be.jar" />
-    </item>
-    <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="58b928ccbaf9090c632f278d6bd31e1ae42f2457">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-bd2b59ad1283365ef6c266145f712d7d07fa8823.jar" />
-    </item>
-    <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-7135f8a03f343e0078ef6082e6b661b37e647f8c.jar" />
-    </item>
-    <item
-        jar="/Users/mtd9636/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-4af8d36641585e514388baaaa999d45112681e8d.jar" />
-    </item>
-    <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="a0c456a59e1edab84702b48a626705aa1d830ccc">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-af2c24177803a15f0cc54ef62c4d484b6bd3c69a.jar" />
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-00d7790409f1b96c9a40f5b58774324e89ba7172.jar" />
     </item>
     <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/classes.jar"
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8c046c952177602c858ed41c8fc492c939bde9aa">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-c6d11e5bc2305dfed39ef54ed1f0eb59fc347173.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-27a04ad1ede1551bcf356235bbb8cd5cc5d31eab.jar" />
     </item>
     <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.3.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-fee433713440d3c65f5106c9cf74534102608465.jar" />
+        sha1="58b928ccbaf9090c632f278d6bd31e1ae42f2457">
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-a8e2928e7df9b0ddf03dcffa68fbba91d2e7cfc1.jar" />
     </item>
     <item
-        jar="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jar="/home/dexter/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-a2efe70ae9cd60660b6a01a851a0b5168c42e976.jar" />
+    </item>
+    <item
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-c311fb3e2ed76deaa75dace24107bfb3b51c371c.jar" />
+    </item>
+    <item
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="/Users/mtd9636/Google Drive/Projects/SustainSystem/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-3e3901fa00eda550de33f165d2de792115db1083.jar" />
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-4b0b249207b5e229375a37d4e6e881610079cc05.jar" />
+    </item>
+    <item
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-9b23d59fbbde1f0d572a4c538e527b6c6392a824.jar" />
+    </item>
+    <item
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8c046c952177602c858ed41c8fc492c939bde9aa">
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-068a480d14fb4cc0f4ba6c94de5a6e99ca96e999.jar" />
+    </item>
+    <item
+        jar="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/home/dexter/Projects/Sustain/SustainApp/Wearable/build/intermediates/pre-dexed/debug/classes-ca13355a19e4a8e60ec1b05a7e3066f456982b85.jar" />
     </item>
 
 </items>
