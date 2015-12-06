@@ -13,7 +13,8 @@ private int delayCounter = 10;
 void setup()
 {
   printArray(Serial.list());
-  sensor.setCOM(new Serial(this, Serial.list()[3],9600));
+  int arraySize = Serial.list().length;
+  sensor.setCOM(new Serial(this, Serial.list()[arraySize-1],9600));
 }
 
 void draw()
