@@ -23,8 +23,12 @@
 // as the current DHT reading algorithm adjusts itself to work on faster procs.
 DHT dht(DHTPIN, DHTTYPE);
 
+int VH400 = 0; //Analog 
 int MotorControl = 5;
 byte motorState = 0;
+float f;
+float h;
+float currentVwc;
 
 void setup() {
   Serial.begin(9600);
@@ -38,14 +42,48 @@ void loop() {
   // Wait a few seconds between measurements.
 
   delay(1000);
+  
+  // Read from DHT22
+  readDHT22();
+  
+  // Read from VH400
+  readVH400();
+  
+  // Compute heat index in Fahrenheit (the default)
+  //float hif = dht.computeHeatIndex(f, h);
+  // Compute heat index in Celsius (isFahreheit = false)
+  //float hic = dht.computeHeatIndex(t, h, false);
+
+  Serial.print("H:");
+  Serial.print(h);
+  //Serial.print(";");
+  Serial.print("F:");
+  Serial.print(f);
+  Serial.print("fan:");
+  Serial.print(motorState);
+  Serial.print("vmc:");
+  Serial.print(currentVwc);
+  Serial.println(";");
+  /*Serial.print(" *C ");
+   Serial.print(f);
+   Serial.print(" *F\t");
+   Serial.print("Heat index: ");
+   Serial.print(hic);
+   Serial.print(" *C ");
+   Serial.print(hif);
+   Serial.println(" *F");*/
+}
+
+void readDHT22()
+{
   // Reading temperature or humidity takes about 250 milliseconds!
   // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-  float h = dht.readHumidity();
+  h = dht.readHumidity();
   // Read temperature as Celsius (the default)
   //float t = dht.readTemperature();
   // Read temperature as Fahrenheit (isFahrenheit = true)
-  float f = dht.readTemperature(true); 
-  
+  f = dht.readTemperature(true); 
+
   if(f >= 70.0)
   {
     digitalWrite(MotorControl, HIGH);
@@ -62,26 +100,29 @@ void loop() {
     Serial.println("Failed to read from DHT sensor!");
     return;
   }
-
-  // Compute heat index in Fahrenheit (the default)
-  float hif = dht.computeHeatIndex(f, h);
-  // Compute heat index in Celsius (isFahreheit = false)
-  //float hic = dht.computeHeatIndex(t, h, false);
-
-  Serial.print("H:");
-  Serial.print(h);
-  //Serial.print(";");
-  Serial.print("F:");
-  Serial.print(f);
-  Serial.print("fan:");
-  Serial.print(motorState);
-  Serial.println(";");
-  /*Serial.print(" *C ");
-  Serial.print(f);
-  Serial.print(" *F\t");
-  Serial.print("Heat index: ");
-  Serial.print(hic);
-  Serial.print(" *C ");
-  Serial.print(hif);
-  Serial.println(" *F");*/
 }
+
+void readVH400()
+{
+  float readIn = analogRead(VH400);
+  
+  readIn *= (0.00488f); // 5/1024 - doing the calculation here so the chip doesn't have to  
+  
+  if(readIn <= 1.1f)
+  {
+    currentVwc = (10 * readIn) - 1;
+  }
+  else if(readIn <= 1.3f)
+  {
+    currentVwc = (25 * readIn) - 17.5;
+  }
+  else if(readIn <= 1.82f)
+  {
+    currentVwc = (48.08 * readIn) - 47.5;
+  }
+  else if(readIn <= 2.2f)
+  {
+    currentVwc = (26.32 * readIn) - 7.89;
+  }
+}
+

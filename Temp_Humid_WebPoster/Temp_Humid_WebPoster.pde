@@ -38,12 +38,14 @@ void draw()
     String convArray = String.valueOf(dataArray);
     String test[] = convArray.split("H:");
     String fanState = "0";
+    float vwc = 0;
     //println(test[0]);
     if(test.length > 1)
     {
       sensor.humidity = Float.parseFloat(test[1].split("F:")[0]);
       sensor.temperature = Float.parseFloat((test[1].split("F:")[1]).split("fan:")[0]);
-      fanState = ((test[1].split("fan:")[1]).split(";")[0]);
+      fanState = ((test[1].split("fan:")[1]).split("vmc:")[0]);
+      vwc = Float.parseFloat((test[1].split("vmc:")[1]).split(";")[0]);
     }
     delayCounter++;
     if(delayCounter >= delayTime)
@@ -51,7 +53,7 @@ void draw()
       int m = minute();  // Values from 0 - 59
       int h = hour();    // Values from 0 - 23
       
-      String request = "http://ph1a5h.asuscomm.com/postTest.php?humid="+String.valueOf(sensor.humidity)+"&temp="+String.valueOf(sensor.temperature)+"&fan="+fanState;
+      String request = "http://ph1a5h.asuscomm.com/postTest.php?humid="+String.valueOf(sensor.humidity)+"&temp="+String.valueOf(sensor.temperature)+"&fan="+fanState+"&vwc="+vwc;
       println(h+":"+m+"[REQUEST]:"+request);
       GetRequest get = new GetRequest(request);
       get.send();
