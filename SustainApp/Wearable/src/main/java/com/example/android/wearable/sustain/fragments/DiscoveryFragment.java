@@ -23,7 +23,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.android.wearable.sustain.R;
+import com.example.android.wearable.datalayer.R;
 
 /**
  * A simple fragment with two buttons to show connected phones and watches

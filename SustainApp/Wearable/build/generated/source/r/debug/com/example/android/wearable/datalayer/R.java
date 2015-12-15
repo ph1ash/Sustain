@@ -575,6 +575,7 @@ containing a value of this type.
         public static final int photo_placeholder=0x7f020027;
         public static final int rounded_background=0x7f020028;
         public static final int thermometer=0x7f020029;
+        public static final int vwc=0x7f02002a;
     }
     public static final class id {
         public static final int adjust_height=0x7f0d0007;
@@ -590,8 +591,8 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f0d000c;
         public static final int clip_vertical=0x7f0d000d;
         public static final int dataItem_list=0x7f0d0019;
-        public static final int dismiss_overlay_button=0x7f0d0020;
-        public static final int dismiss_overlay_explain=0x7f0d001f;
+        public static final int dismiss_overlay_button=0x7f0d0021;
+        public static final int dismiss_overlay_explain=0x7f0d0020;
         public static final int end=0x7f0d000e;
         public static final int fanstateText=0x7f0d001d;
         public static final int fill=0x7f0d000f;
@@ -602,19 +603,20 @@ containing a value of this type.
         public static final int intro=0x7f0d001a;
         public static final int layout=0x7f0d0017;
         public static final int left=0x7f0d0002;
-        public static final int message=0x7f0d0021;
+        public static final int message=0x7f0d0022;
         public static final int none=0x7f0d0009;
-        public static final int openAppButton=0x7f0d001e;
-        public static final int page_indicator=0x7f0d0023;
-        public static final int pager=0x7f0d0022;
+        public static final int page_indicator=0x7f0d0024;
+        public static final int pager=0x7f0d0023;
         public static final int parentPanel=0x7f0d0013;
         public static final int photo=0x7f0d0018;
         public static final int right=0x7f0d0003;
         public static final int start=0x7f0d0012;
         public static final int temperatureText=0x7f0d001c;
-        public static final int text=0x7f0d0025;
-        public static final int title=0x7f0d0024;
+        public static final int text=0x7f0d0026;
+        public static final int title=0x7f0d0025;
         public static final int top=0x7f0d0004;
+        public static final int update_button=0x7f0d001f;
+        public static final int vwcText=0x7f0d001e;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f0c0000;

@@ -210,6 +210,7 @@ containing a value of this type.
         public static final int ic_launcher=0x7f02001e;
         public static final int thermometer=0x7f02001f;
         public static final int tile=0x7f020020;
+        public static final int vwc=0x7f020021;
     }
     public static final class id {
         public static final int adjust_height=0x7f0a0000;
@@ -218,7 +219,8 @@ containing a value of this type.
         public static final int humidityText=0x7f0a0003;
         public static final int none=0x7f0a0002;
         public static final int temperatureText=0x7f0a0004;
-        public static final int update_button=0x7f0a0006;
+        public static final int update_button=0x7f0a0007;
+        public static final int vwcText=0x7f0a0006;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f090000;

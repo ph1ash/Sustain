@@ -44,6 +44,7 @@ public class DataLayerListenerService extends WearableListenerService {
     public static final String TEMPERATURE_PATH= "/temperature";
     public static final String HUMIDITY_PATH = "/humidity";
     public static final String FANSTATE_PATH = "/fanstate";
+    public static final String VWC_PATH = "/vwc";
     GoogleApiClient mGoogleApiClient;
 
     @Override

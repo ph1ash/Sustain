@@ -23,12 +23,14 @@ public class Sustain {
     private String humidity;
     private String temperature;
     private String fanState;
+    private String vwc;
 
     private GoogleApiClient mClient;
 
     private static final String TEMPERATURE_PATH = "/temperature";
     private static final String HUMIDITY_PATH = "/humidity";
     private static final String FANSTATE_PATH = "/fanstate";
+    private static final String VWC_PATH = "/vwc";
 
     // Parses the HTML by splitting data at specific delimiters
     private void environmentParser(String data)
@@ -52,6 +54,13 @@ public class Sustain {
         {
             fanHolder = fanHolder[1].split("</br");
             fanState = fanHolder[0].trim();
+        }
+
+        String vwcHolder[] = data.split("Content</br>");
+        if(vwcHolder.length > 1)
+        {
+            vwcHolder = vwcHolder[1].split("</br");
+            vwc = vwcHolder[0].trim();
         }
 
     }
@@ -103,6 +112,7 @@ public class Sustain {
         putDataMapString(TEMPERATURE_PATH, temperature);
         putDataMapString(HUMIDITY_PATH, humidity);
         putDataMapString(FANSTATE_PATH, fanState);
+        putDataMapString(VWC_PATH, vwc);
     }
 
     /**
@@ -134,6 +144,11 @@ public class Sustain {
     public String getFanState()
     {
         return fanState;
+    }
+
+    public String getVwc()
+    {
+        return vwc;
     }
 
     public void setGoogleApiClient(GoogleApiClient client)

@@ -69,6 +69,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
     private String temperature;
     private String humidity;
     private String fanstate;
+    private String vwc;
 
     private static final String UPDATE_SUSTAIN_DATA = "/update_sustain_data";
 
@@ -87,7 +88,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
         super.onCreate(b);
         mHandler = new Handler();
         setContentView(R.layout.discovery_fragment);
-        Button b1 = (Button) findViewById(R.id.openAppButton);
+        Button b1 = (Button) findViewById(R.id.update_button);
         b1.setOnClickListener(handler);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         //setupViews();
@@ -214,6 +215,20 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
                             Log.d(TAG, "Setting fan state params to "+fanstate);
                             TextView currentView = (TextView) findViewById(R.id.fanstateText);
                             currentView.setText(fanstate);
+                        }
+                    });
+                }
+
+                if (DataLayerListenerService.VWC_PATH.equals(path))
+                {
+                    DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+                    vwc = dataMapItem.getDataMap().getString(DataLayerListenerService.VWC_PATH);
+                    mHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            Log.d(TAG, "Setting fan state params to "+vwc);
+                            TextView currentView = (TextView) findViewById(R.id.vwcText);
+                            currentView.setText(vwc+"vol/vol");
                         }
                     });
                 }
